@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 300px;
+  background-image: url('https://www.wallpaperflare.com/static/967/89/86/minimalism-code-text-digital-art-wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.about {
+  padding-top: 60px;
+  /* background-color: #f8f9fa; */
+  background-color: #F5F5F5;
+  
+}
+
+.profile-image {
+  max-width: 80%;
+  height: auto;
+  padding: 50px;
+}
+
+.qualifications {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /* background-color: #8CBD52; */
+  background-color: #F7CE6C;
+}
+
+.skills {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #BF8F0B;
+}
+
+.icon {
+  padding-top: 20px;
+}
+
+.description {
+  padding-top: 20px;
+}
+
+.projects {
+  padding-top: 60px;
+  background-color: #f8f9fa;
+}
+
+.projects-items {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.projects-image {
+  max-width: 80%;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+
+}
+
+.project--1 {
+  padding-bottom: 180px;
+  margin-bottom: 40px;
+}
+
+.project--2 {
+  margin-bottom: 55px;
+}
+
+.connect {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #0D1117
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 60px;
+}
