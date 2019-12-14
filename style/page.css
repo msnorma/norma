@@ -54,6 +54,14 @@ body {
   padding-top: 20px;
 }
 
+.icons {
+  text-align: center;
+}
+
+.icons ul {
+  display: inline-flex;
+}
+
 .description {
   padding-top: 20px;
 }
@@ -71,6 +79,10 @@ body {
   background-color: #f8f9fa;
 }
 
+.content {
+  margin-top: 50px;
+}
+
 .projects-items {
   padding-top: 80px;
   padding-bottom: 30px;
@@ -81,25 +93,6 @@ body {
   margin-bottom: 40px;
   padding-bottom: 10px;
 
-}
-
-.project--1 {
-  padding-bottom: 180px;
-  margin-bottom: 40px;
-}
-
-.project--2 {
-  margin-bottom: 55px;
-}
-
-.project--3 {
-  margin-top: 50px;
-  margin-bottom: 200px;
-}
-
-.project--4 {
-  margin-top: 30px;
-  margin-bottom: 50px;
 }
 
 .connect {
@@ -116,4 +109,22 @@ h2 {
 li {
   list-style-type: none;
   padding-left: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-image {
+      max-width: 100%;
+    } 
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+      padding-top: 10px;
+      background-color: #F5F5F5;
+  }
+
+  .profile-image {
+      max-width: 100%;
+      padding: 10px;
+    } 
 }
