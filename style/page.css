@@ -2,19 +2,72 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+.navbar {
+  background-color: #090909;
+}
+
 .masthead {
-  height: 100vh;
-  min-height: 300px;
-  background-image: url('https://www.wallpaperflare.com/static/967/89/86/minimalism-code-text-digital-art-wallpaper.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  min-height: 900px;
+  background-color: #090909;
+}
+
+.intro {
+  padding-top: 300px;
 }
 
 
+/* Typography */
+
+h4, li, a {
+  color: #ffffff;
+}
+
+p {
+  font-size: 13px;
+}
+
+.paragraph-blk-bg {
+  color: #ffffff;
+}
+
+.paragraph-wt-bg {
+  color: #090909;
+}
+
+.h5-blk-bg {
+  color: #ffffff;
+}
+
+.h5-wt-bg {
+  color: #090909;
+}
+
+li, a:hover {
+  color: #808080;
+}
+
+small {
+  color: #808080;
+}
+
+/* Buttons */
+.btn {
+  margin-top: 20px;
+}
+
+/* Icons */
+.icons {
+  margin-bottom: 30px;
+}
+
+/* Sections */
+
+.header {
+  margin-bottom: 50px;
+}
+
 .about {
-  padding-top: 60px;
-  /* background-color: #f8f9fa; */
+  padding: 60px 0px 80px;
   background-color: #F5F5F5;
 }
 
@@ -23,108 +76,43 @@ body {
 }
 
 .profile-image {
-  max-width: 80%;
+  max-width: 50%;
   height: auto;
-  padding: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
 }
 
 .qualifications {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  /* background-color: #8CBD52; */
-  background-color: #F7CE6C;
+  padding: 60px 0px 80px;
+  background-color: #090909;
 }
 
 .skills {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #BF8F0B;
+  padding: 60px 0px 80px;
+  background-color: #090909;
 }
 
-.card-deck {
-  margin-left: 100px;
+.carousel-inner {
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
 }
 
-.card {
-  background-color: #BF8F0B;
-  border: #BF8F0B;
-}
-
-.icon {
-  padding-top: 20px;
-}
-
-.icons {
-  text-align: center;
-}
-
-ul {
-  display: inline-flex;
-}
-
-.description {
-  padding-top: 20px;
-}
-
-.hardware-description {
-  padding-top: 68px;
-}
-
-.design-description {
-  padding-top: 68px;
+.center-vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects {
-  padding-top: 60px;
-  background-color: #f8f9fa;
+  padding: 60px 0px 60px;
+  background-color: #ffffff;
 }
 
-.content {
-  margin-top: 50px;
-}
-
-.projects-items {
-  padding-top: 80px;
-  padding-bottom: 30px;
-}
-
-.projects-image {
-  max-width: 80%;
-  margin-bottom: 40px;
-  padding-bottom: 10px;
-
+.carousel-inner {
+  border-radius: 8px;;
 }
 
 .connect {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #0D1117
+  padding: 60px 0px 60px;
+  background-color: #090909;
 }
 
-h2 {
-  text-align: center;
-  padding-bottom: 60px;
-}
-
-li {
-  list-style-type: none;
-  padding-left: 0px;
-}
-
-@media only screen and (max-width: 600px) {
-  .profile-image {
-      max-width: 100%;
-    } 
-}
-
-@media only screen and (max-width: 768px) {
-  .about {
-      padding-top: 10px;
-      background-color: #F5F5F5;
-  }
-
-  .profile-image {
-      max-width: 100%;
-      padding: 10px;
-    } 
-}
+/* Responsiveness */
